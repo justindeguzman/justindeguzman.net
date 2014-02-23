@@ -38,7 +38,7 @@ module.exports = function(grunt) {
           },
           {
             expand: true,
-            src: 'vendor/**',
+            src: 'bower_components/**',
             dest: 'public_html'
           }
         ]
