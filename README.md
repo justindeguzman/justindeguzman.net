@@ -13,4 +13,9 @@ justindeguzman.net
   npm install && bower install && grunt
   ```
   
-3. Copy the contents of the folder 'public_html' to a web server
+3. Compile the source
+  ```
+  grunt
+  ```
+
+4. Copy the contents of the folder 'public_html' to a web server
