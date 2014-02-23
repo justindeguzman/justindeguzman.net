@@ -38,10 +38,9 @@ module.exports = function(grunt) {
           },
           {
             expand: true,
-            flatten: true,
-            src: 'bower_components/**',
-            dest: 'public_html/vendor',
-            filter: 'isFile'
+            cwd: 'bower_components',
+            src: '**',
+            dest: 'public_html/vendor/'
           }
         ]
       }
