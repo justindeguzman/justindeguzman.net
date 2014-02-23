@@ -38,8 +38,10 @@ module.exports = function(grunt) {
           },
           {
             expand: true,
+            flatten: true,
             src: 'bower_components/**',
-            dest: 'public_html'
+            dest: 'public_html/vendor',
+            filter: 'isFile'
           }
         ]
       }
