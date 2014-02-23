@@ -10,7 +10,7 @@ justindeguzman.net
   
 2. Install the dependencies
   ```
-  npm install && bower install
+  npm install && bower install && cd justindeguzman.net/
   ```
   
 3. Compile the source
