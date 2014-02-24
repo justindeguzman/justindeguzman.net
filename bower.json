@@ -4,7 +4,6 @@
   "authors": [
     "Justin de Guzman <justin@justindeguzman.net>"
   ],
-  "directory": "vendor",
   "homepage": "justindeguzman.net",
   "private": true,
   "ignore": [
